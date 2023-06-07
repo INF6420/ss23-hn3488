@@ -19,9 +19,8 @@ These wireframes display the landing page, the new account page, and one of the 
 4. About button for overview of brand
 5. Photo which represents brand
 
-### 1st Journal Creation Page
+### About Page
 ![First Journal Creation Page](wireframes/1st%20Journal%20Creation%20Page.png)
-1. Eyecatching Journal Creation icon to the left of the page
+1. Explain the purpose of the website
 2. Navigation panel for easy escape
-3. Customizeable URL for increased shareability
-4. Switch to choose privacy settings
+3. 
