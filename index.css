@@ -1,0 +1,81 @@
+html{background-color: tan;
+}
+.img{
+  padding:25px
+}
+.nav-menu{
+background-color: #5C4033;
+}
+.nav-menu a{
+  display: inline-block;
+  color: tan;
+  text-align: right;
+  padding: 25px;
+  font-size: 17px;
+  border-radius: 100px;
+}
+.book-image{
+  float:right;
+  display: block;
+  border: 20px solid white; 
+  border-top-left-radius: 50% 50%; 
+  border-top-right-radius: 50% 50%; 
+  border-bottom-right-radius: 50% 50%; 
+  border-bottom-left-radius: 50% 50%; 
+}
+.paragraph-one{
+  text-align: center;
+  background-color: tan;
+  font-size: 4.0em;
+  font-family: sans-serif;
+  margin-bottom: -48px
+}
+@font-face {
+    font-family: Cedarville-Cursive;
+    src: url(fonts/Cedarville_Cursive/cedarvillecursive-regular.ttf);}
+
+.paragraph-two{
+    font-family: Cedarville-Cursive;
+    text-align: center;
+    font-size: 6.0em;
+  }
+.login-button{
+  background-color: #5C4033;
+  padding: 12px;
+  font-size: 1.6em;
+  color: tan;
+  width: 100px;
+  border-radius: 16px
+}
+.about-button{
+  background-color: #5C4033;
+  padding: 12px;
+  font-size: 1.6em;
+  color: tan;
+  width: 100px;
+  border-radius: 16px
+}
+.button-container{
+  padding:110px;
+}
+.site-footer{
+  position: block;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  background-color: #5C4033;   
+  padding: 10px;
+}
+  
+.contact-info{
+  font-size:2.0em;
+  display: flex;
+  text-align: center;
+}
+.paragraph-footer{
+  font-size: 1.2em;
+  position: block;
+}
+
