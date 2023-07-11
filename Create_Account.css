@@ -1,2 +1,22 @@
-html{background-color: tan;
+.html{background-color: tan;
+}
+.nav-menu{
+background-color: #5C4033;
+min-height: 32px;
+}
+.nav-menu a{
+  display: inline-block;
+  color: tan;
+  text-align: right;
+  padding: 25px;
+  font-size: 17px;
+  border-radius: 100px;
+}
+
+.left_container{float: left;
+  margin: 0 15px 0 0; 
+}
+
+.Create-Account{float: right;
+  margin: 0 15px 0 0;
 }
