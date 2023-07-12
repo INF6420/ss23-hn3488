@@ -41,6 +41,27 @@ html{background-color: tan;
   padding: 30px;
 }
 
+.right-container{
+  width: 50%;
+  margin: 3em auto;
+  min-width: 1065px;
+  display: block;
+  float: center;
+  font-weight: 700;
+}
+
+.right-container label{
+  width: 50%;
+  display: inline-block;
+}
+
+.right-container input{
+  border: 3px solid rgb(128, 70, 27);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
 .site_title{
   padding-top: 200px;
   color: #5C4033;

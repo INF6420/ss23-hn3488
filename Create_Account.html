@@ -21,18 +21,16 @@
     Create new account
 </h1>
 </div>
-<div>
-    <form id="Create-Acc" class="Create-Account">
-        <input type="text" name="username" id="new-username-field" 
-        class="login-form-field" placeholder="Username">
-        <input type="email" name="email" id="email-field" 
-        class="login-form-field" placeholder="Email">
-        <input type="password" name="password" id="password-field" 
-        class="login-form-field" placeholder="Password">
-        <label>
-            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-        </label>
-    </form>
-</div>
+<form id="right-container">
+    <div action="https://formspree.io/f/myyqyozd" method="post" class="right-container">
+        <label for="email">Your Email</label>
+        <input name="Email" id="email" type="email" class="email">
+        <label for="username">Username</label>
+        <input name="Username" id="username" type="text" class="username">
+        <label for="password">Password</label>
+        <input name="password" id="password" type="text" class="password">
+        <button type="submit">Submit</button>
+    </div>
+
 <div class="footer">
 </div>
