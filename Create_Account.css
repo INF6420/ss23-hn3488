@@ -1,0 +1,63 @@
+html{background-color: tan;
+}
+
+.img{padding:25px
+}
+
+.nav-menu{
+  background-color: #5C4033;
+}
+
+.nav-menu a{
+  display: inline-block;
+  color: tan;
+  text-align: right;
+  padding: 25px;
+  font-size: 17px;
+  border-radius: 100px;
+}
+
+.left_container{float: left;
+  margin: 0 15px 0 0; 
+}
+
+.left-image{
+  max-width: 100%;  
+  height: auto; 
+}
+
+.right-container{
+  width: 50%;
+  margin: 3em auto;
+  min-width: 1065px;
+  display: block;
+  float: center;
+  font-weight: 700;
+}
+
+.right-container label{
+  width: 50%;
+  display: inline-block;
+}
+
+.right-container input{
+  border: 3px solid rgb(128, 70, 27);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+.site_title{
+  padding-top: 200px;
+  color: #5C4033;
+  font-size: 58px;
+  font-family: fantasy;
+  font-weight: bold;
+  text-align: left;
+}
+
+.footer{
+  background-color:rgb(92, 64, 51);
+  padding:80px;
+  margin-top: 190px;
+}
