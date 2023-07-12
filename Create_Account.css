@@ -1,9 +1,13 @@
-.html{background-color: tan;
+html{background-color: tan;
 }
+
+.img{padding:25px
+}
+
 .nav-menu{
-background-color: #5C4033;
-min-height: 32px;
+  background-color: #5C4033;
 }
+
 .nav-menu a{
   display: inline-block;
   color: tan;
@@ -17,6 +21,23 @@ min-height: 32px;
   margin: 0 15px 0 0; 
 }
 
-.Create-Account{float: right;
+.Create-Account{float: center;
   margin: 0 15px 0 0;
+}
+
+.login-form-field{
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  margin: 40px 50px;
+  border: 3px solid rgb(92, 64, 51);
+  padding: 30px;
+}
+
+.site_title{
+  color: #5C4033;
+  font-size: 42px;
+  font-family: fantasy;
+  font-weight: bold;
+  text-align: center;
 }
