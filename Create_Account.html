@@ -21,16 +21,19 @@
     Create new account
 </h1>
 </div>
-<form id="right-container">
+<form id="right-container" class="validate">
     <div action="https://formspree.io/f/myyqyozd" method="post" class="right-container">
         <label for="email">Your Email</label>
-        <input name="Email" id="email" type="email" class="email">
+        <input name="Email" id="email" type="email" class="email" required>
         <label for="username">Username</label>
-        <input name="Username" id="username" type="text" class="username">
+        <input name="Username" id="username" type="text" class="username" required>
         <label for="password">Password</label>
-        <input name="password" id="password" type="text" class="password">
+        <input name="password" id="password" type="text" class="password" required>
         <button type="submit">Submit</button>
     </div>
 
 <div class="footer">
 </div>
+<script scr="script.js"></script>
+</form>
+</body>

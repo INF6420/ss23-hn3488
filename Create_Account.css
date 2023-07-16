@@ -1,4 +1,5 @@
-html{background-color: tan;
+html, body{background-color: tan;
+  min-height: 100%;
 }
 
 .img{padding:25px
@@ -19,6 +20,7 @@ html{background-color: tan;
 
 .left_container{float: left;
   margin: 0 15px 0 0; 
+  width: 50%;
 }
 
 .left-image{
@@ -27,26 +29,49 @@ html{background-color: tan;
 }
 
 .right-container{
-  width: 50%;
-  margin: 3em auto;
-  min-width: 1065px;
+  position: absolute;
+  top: 550px;
+  right: 16px;
+  font-size: 18px;
+  left: 900px;
+}
+
+label, input {
   display: block;
-  float: center;
-  font-weight: 700;
-}
-
-.right-container label{
   width: 50%;
+  padding: 13px;
+  border: brown;
+  outline: none;
+  box-sizing: border-box;
+  margin-bottom: 4px;
+}
+
+label{
+  font-weight: bold;
+  color: #5C4033;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input{
+  border-radius: 8px;
+  background-color: #5C4033;
+  color: azure;
+}
+
+button{
+  border-radius: 8px;
+  width: 30%;
+  background-color: rgb(92, 64, 51);
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
-
-.right-container input{
-  border: 3px solid rgb(128, 70, 27);
-  font-size: 14px;
-  font-weight: 300;
-}
-
-
 .site_title{
   padding-top: 200px;
   color: #5C4033;
@@ -58,6 +83,10 @@ html{background-color: tan;
 
 .footer{
   background-color:rgb(92, 64, 51);
-  padding:80px;
-  margin-top: 190px;
+  height: 200px;
+  margin-top: 600px;
+}
+
+.error{
+  border-color: red;
 }
