@@ -2,6 +2,11 @@ html{background-color: tan;
 }
 .img{
   padding:25px
+<<<<<<< Updated upstream
+=======
+  width: 100%;
+  height: auto;
+>>>>>>> Stashed changes
 }
 .nav-menu{
 background-color: #5C4033;
@@ -80,10 +85,16 @@ background-color: #5C4033;
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 .footer{
   background-color:rgb(92, 64, 51);
   height: 200px;
   margin-top: 600px;
 }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

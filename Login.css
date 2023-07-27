@@ -16,7 +16,11 @@ min-height: 32px;
   border-radius: 100px;
 }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 .h1{
+=======
+h1{
+>>>>>>> Stashed changes
 =======
 h1{
 >>>>>>> Stashed changes
@@ -41,6 +45,13 @@ h1{
   margin:0;
 }
 
+<<<<<<< Updated upstream
+=======
+.img-reading{
+  width: 50%;
+  float: left;
+}
+>>>>>>> Stashed changes
 .button{
     background-color: #5C4033;
     padding: 12px;
@@ -61,6 +72,7 @@ h1{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 }
 
@@ -68,5 +80,7 @@ h1{
   background-color:rgb(92, 64, 51);
   height: 200px;
   margin-top: 600px;
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
