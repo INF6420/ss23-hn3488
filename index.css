@@ -1,12 +1,18 @@
-html{background-color: tan;
+html {
+  background-color: tan;
 }
-.img{
-  padding:25px
+
+.img {
+  padding: 25px;
+  width: 100%;
+  height: auto;
 }
-.nav-menu{
-background-color: #5C4033;
+
+.nav-menu {
+  background-color: #5C4033;
 }
-.nav-menu a{
+
+.nav-menu a {
   display: inline-block;
   color: tan;
   text-align: right;
@@ -14,32 +20,37 @@ background-color: #5C4033;
   font-size: 17px;
   border-radius: 100px;
 }
-.book-image{
-  float:right;
+
+.book-image {
+  float: right;
   display: block;
-  border: 20px solid white; 
-  border-top-left-radius: 50% 50%; 
-  border-top-right-radius: 50% 50%; 
-  border-bottom-right-radius: 50% 50%; 
-  border-bottom-left-radius: 50% 50%; 
+  border: 20px solid white;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
 }
-.paragraph-one{
+
+.paragraph-one {
   text-align: center;
   background-color: tan;
   font-size: 4.0em;
   font-family: sans-serif;
   margin-bottom: -48px
 }
-@font-face {
-    font-family: Cedarville-Cursive;
-    src: url(fonts/Cedarville_Cursive/cedarvillecursive-regular.ttf);}
 
-.paragraph-two{
-    font-family: Cedarville-Cursive;
-    text-align: center;
-    font-size: 6.0em;
-  }
-.login-button{
+@font-face {
+  font-family: Cedarville-Cursive;
+  src: url(fonts/Cedarville_Cursive/cedarvillecursive-regular.ttf);
+}
+
+.paragraph-two {
+  font-family: Cedarville-Cursive;
+  text-align: center;
+  font-size: 6.0em;
+}
+
+.login-button {
   background-color: #5C4033;
   padding: 12px;
   font-size: 1.6em;
@@ -47,7 +58,8 @@ background-color: #5C4033;
   width: 100px;
   border-radius: 16px
 }
-.about-button{
+
+.about-button {
   background-color: #5C4033;
   padding: 12px;
   font-size: 1.6em;
@@ -55,35 +67,35 @@ background-color: #5C4033;
   width: 100px;
   border-radius: 16px
 }
-.button-container{
-  padding:110px;
+
+.button-container {
+  padding: 110px;
 }
-.site-footer{
+
+.site-footer {
   position: block;
   width: 100%;
   left: 0;
   bottom: 0;
   color: white;
   text-align: center;
-  background-color: #5C4033;   
+  background-color: #5C4033;
   padding: 10px;
 }
-  
-.contact-info{
-  font-size:2.0em;
+
+.contact-info {
+  font-size: 2.0em;
   display: flex;
   text-align: center;
 }
-.paragraph-footer{
+
+.paragraph-footer {
   font-size: 1.2em;
   position: block;
 }
 
-<<<<<<< Updated upstream
-=======
-.footer{
-  background-color:rgb(92, 64, 51);
+.footer {
+  background-color: rgb(92, 64, 51);
   height: 200px;
   margin-top: 600px;
 }
->>>>>>> Stashed changes
